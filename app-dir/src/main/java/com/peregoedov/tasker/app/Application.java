@@ -1,13 +1,13 @@
-package com.peregoedov.tasker.app.app_dir;
+package com.peregoedov.tasker.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AppDirApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AppDirApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
